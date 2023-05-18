@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(207, 203, 203);
+    width: 282px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 27px;
+    padding: 15px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*background-color: aqua;*/
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /*background-color: aquamarine;*/
+    height: 56vh;
+    width: 76vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 20px;
+}
+
+.moreabout{
+    font-size: 15px;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 3px 7px;
+    border-radius: 11px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic{
+    height: 56vh;
+}
+
+.contactform{
+    padding-top: 144px;
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 10px  0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form input div{
+    width: 26vw;
+    border-radius: 5px ;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.form-check{
+    
+}
+.form-check{
+
+}
+
+
+
